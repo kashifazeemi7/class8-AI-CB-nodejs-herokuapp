@@ -10,6 +10,10 @@ app.get('/home', (req, res) => {
     res.send('Welcome to Home!')
 })
 
+app.get('/', (req, res) => {
+    res.send('Welcome to the heroku app!')
+})
+
 app.get('/profile', (req, res) => {
     res.send('Welcome to Profile!')
 })
